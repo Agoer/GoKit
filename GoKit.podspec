@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'GoKit'
-  s.version      = '1.0.0'
+  s.version      = '1.0.2'
   s.summary      = 'GoKit'
   s.homepage     = 'https://github.com/Agoer/GoKit'
   s.license      = 'MIT'
@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
       :git => 'https://github.com/Agoer/GoKit.git',
       :tag => s.version.to_s
   }
-  s.source_files = 'Source/**/*.{c,h,m}'
-  
+  s.source_files = 'GoKit/**/*.{c,h,m}'
+
 end

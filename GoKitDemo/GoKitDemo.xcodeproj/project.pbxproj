@@ -15,9 +15,9 @@
 		C4D607C81D66AA76006C5E55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D607C61D66AA76006C5E55 /* LaunchScreen.storyboard */; };
 		C4D607D31D66AA76006C5E55 /* GoKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D607D21D66AA76006C5E55 /* GoKitDemoTests.m */; };
 		C4D607DE1D66AA76006C5E55 /* GoKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D607DD1D66AA76006C5E55 /* GoKitDemoUITests.m */; };
-		C4D608131D66B6E6006C5E55 /* UIButton+GoBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6080C1D66B6E6006C5E55 /* UIButton+GoBlock.m */; };
-		C4D608141D66B6E6006C5E55 /* UIImage+GoWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6080F1D66B6E6006C5E55 /* UIImage+GoWaterMark.m */; };
-		C4D608151D66B6E6006C5E55 /* UIView+GoBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608121D66B6E6006C5E55 /* UIView+GoBlur.m */; };
+		C4D608211D66B81D006C5E55 /* UIButton+GoBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6081A1D66B81D006C5E55 /* UIButton+GoBlock.m */; };
+		C4D608221D66B81D006C5E55 /* UIImage+GoWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6081D1D66B81D006C5E55 /* UIImage+GoWaterMark.m */; };
+		C4D608231D66B81D006C5E55 /* UIView+GoBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +54,13 @@
 		C4D607D91D66AA76006C5E55 /* GoKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D607DD1D66AA76006C5E55 /* GoKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoKitDemoUITests.m; sourceTree = "<group>"; };
 		C4D607DF1D66AA76006C5E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4D608091D66B6E6006C5E55 /* GoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoKit.h; sourceTree = "<group>"; };
-		C4D6080B1D66B6E6006C5E55 /* UIButton+GoBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GoBlock.h"; sourceTree = "<group>"; };
-		C4D6080C1D66B6E6006C5E55 /* UIButton+GoBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GoBlock.m"; sourceTree = "<group>"; };
-		C4D6080E1D66B6E6006C5E55 /* UIImage+GoWaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GoWaterMark.h"; sourceTree = "<group>"; };
-		C4D6080F1D66B6E6006C5E55 /* UIImage+GoWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GoWaterMark.m"; sourceTree = "<group>"; };
-		C4D608111D66B6E6006C5E55 /* UIView+GoBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoBlur.h"; sourceTree = "<group>"; };
-		C4D608121D66B6E6006C5E55 /* UIView+GoBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoBlur.m"; sourceTree = "<group>"; };
+		C4D608171D66B81D006C5E55 /* GoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoKit.h; sourceTree = "<group>"; };
+		C4D608191D66B81D006C5E55 /* UIButton+GoBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+GoBlock.h"; sourceTree = "<group>"; };
+		C4D6081A1D66B81D006C5E55 /* UIButton+GoBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+GoBlock.m"; sourceTree = "<group>"; };
+		C4D6081C1D66B81D006C5E55 /* UIImage+GoWaterMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GoWaterMark.h"; sourceTree = "<group>"; };
+		C4D6081D1D66B81D006C5E55 /* UIImage+GoWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GoWaterMark.m"; sourceTree = "<group>"; };
+		C4D6081F1D66B81D006C5E55 /* UIView+GoBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoBlur.h"; sourceTree = "<group>"; };
+		C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoBlur.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 		C4D607AC1D66AA76006C5E55 = {
 			isa = PBXGroup;
 			children = (
-				C4D608081D66B6E6006C5E55 /* Source */,
+				C4D608161D66B81D006C5E55 /* GoKit */,
 				C4D607B71D66AA76006C5E55 /* GoKitDemo */,
 				C4D607D11D66AA76006C5E55 /* GoKitDemoTests */,
 				C4D607DC1D66AA76006C5E55 /* GoKitDemoUITests */,
@@ -151,41 +151,41 @@
 			path = GoKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		C4D608081D66B6E6006C5E55 /* Source */ = {
+		C4D608161D66B81D006C5E55 /* GoKit */ = {
 			isa = PBXGroup;
 			children = (
-				C4D608091D66B6E6006C5E55 /* GoKit.h */,
-				C4D6080A1D66B6E6006C5E55 /* UIButton */,
-				C4D6080D1D66B6E6006C5E55 /* UIImage */,
-				C4D608101D66B6E6006C5E55 /* UIView */,
+				C4D608171D66B81D006C5E55 /* GoKit.h */,
+				C4D608181D66B81D006C5E55 /* UIButton */,
+				C4D6081B1D66B81D006C5E55 /* UIImage */,
+				C4D6081E1D66B81D006C5E55 /* UIView */,
 			);
-			name = Source;
-			path = ../Source;
+			name = GoKit;
+			path = ../GoKit;
 			sourceTree = "<group>";
 		};
-		C4D6080A1D66B6E6006C5E55 /* UIButton */ = {
+		C4D608181D66B81D006C5E55 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				C4D6080B1D66B6E6006C5E55 /* UIButton+GoBlock.h */,
-				C4D6080C1D66B6E6006C5E55 /* UIButton+GoBlock.m */,
+				C4D608191D66B81D006C5E55 /* UIButton+GoBlock.h */,
+				C4D6081A1D66B81D006C5E55 /* UIButton+GoBlock.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
 		};
-		C4D6080D1D66B6E6006C5E55 /* UIImage */ = {
+		C4D6081B1D66B81D006C5E55 /* UIImage */ = {
 			isa = PBXGroup;
 			children = (
-				C4D6080E1D66B6E6006C5E55 /* UIImage+GoWaterMark.h */,
-				C4D6080F1D66B6E6006C5E55 /* UIImage+GoWaterMark.m */,
+				C4D6081C1D66B81D006C5E55 /* UIImage+GoWaterMark.h */,
+				C4D6081D1D66B81D006C5E55 /* UIImage+GoWaterMark.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
 		};
-		C4D608101D66B6E6006C5E55 /* UIView */ = {
+		C4D6081E1D66B81D006C5E55 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
-				C4D608111D66B6E6006C5E55 /* UIView+GoBlur.h */,
-				C4D608121D66B6E6006C5E55 /* UIView+GoBlur.m */,
+				C4D6081F1D66B81D006C5E55 /* UIView+GoBlur.h */,
+				C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -323,9 +323,9 @@
 				C4D607C01D66AA76006C5E55 /* ViewController.m in Sources */,
 				C4D607BD1D66AA76006C5E55 /* AppDelegate.m in Sources */,
 				C4D607BA1D66AA76006C5E55 /* main.m in Sources */,
-				C4D608131D66B6E6006C5E55 /* UIButton+GoBlock.m in Sources */,
-				C4D608141D66B6E6006C5E55 /* UIImage+GoWaterMark.m in Sources */,
-				C4D608151D66B6E6006C5E55 /* UIView+GoBlur.m in Sources */,
+				C4D608211D66B81D006C5E55 /* UIButton+GoBlock.m in Sources */,
+				C4D608221D66B81D006C5E55 /* UIImage+GoWaterMark.m in Sources */,
+				C4D608231D66B81D006C5E55 /* UIView+GoBlur.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
