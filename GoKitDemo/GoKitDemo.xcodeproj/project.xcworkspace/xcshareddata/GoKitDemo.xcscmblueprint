@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E1E98E16E2488617676948A0DD8E50AECBB1464B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E1E98E16E2488617676948A0DD8E50AECBB1464B" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA51DC9D-18D2-48A7-8416-7521CE5D7B44",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E1E98E16E2488617676948A0DD8E50AECBB1464B" : "GoKit\/GoKitDemo\/GoKitDemo\/GoKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GoKitDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "GoKitDemo\/GoKitDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Agoer\/GoKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1E98E16E2488617676948A0DD8E50AECBB1464B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Agoer\/GoKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1E98E16E2488617676948A0DD8E50AECBB1464B"
+    }
+  ]
+}
