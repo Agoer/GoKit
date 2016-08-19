@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
       :git => 'https://github.com/Agoer/GoKit.git',
       :tag => s.version.to_s
   }
-  s.source_files = 'GoKit/**/*.{c,h,m}'
+  s.source_files = 'Source/**/*.{c,h,m}'
+  
 end

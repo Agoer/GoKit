@@ -81,7 +81,6 @@
 		C4D607AC1D66AA76006C5E55 = {
 			isa = PBXGroup;
 			children = (
-				C4D607FF1D66B305006C5E55 /* GoKit */,
 				C4D607B71D66AA76006C5E55 /* GoKitDemo */,
 				C4D607D11D66AA76006C5E55 /* GoKitDemoTests */,
 				C4D607DC1D66AA76006C5E55 /* GoKitDemoUITests */,
@@ -139,38 +138,6 @@
 				C4D607DF1D66AA76006C5E55 /* Info.plist */,
 			);
 			path = GoKitDemoUITests;
-			sourceTree = "<group>";
-		};
-		C4D607FF1D66B305006C5E55 /* GoKit */ = {
-			isa = PBXGroup;
-			children = (
-				C4D608001D66B305006C5E55 /* UIButton */,
-				C4D608011D66B305006C5E55 /* UIImage */,
-				C4D608021D66B305006C5E55 /* UIView */,
-			);
-			name = GoKit;
-			path = ../GoKit;
-			sourceTree = "<group>";
-		};
-		C4D608001D66B305006C5E55 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
-		C4D608011D66B305006C5E55 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		C4D608021D66B305006C5E55 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
