@@ -11,6 +11,7 @@
 #define GoKit_h
 
 #import "UIButton+GoBlock.h"
+#import "UIColor+RandomColor.h"
 #import "UIImage+GoWaterMark.h"
 #import "UIView+GoBlur.h"
 

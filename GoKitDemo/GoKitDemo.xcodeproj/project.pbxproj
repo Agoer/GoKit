@@ -18,6 +18,14 @@
 		C4D608211D66B81D006C5E55 /* UIButton+GoBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6081A1D66B81D006C5E55 /* UIButton+GoBlock.m */; };
 		C4D608221D66B81D006C5E55 /* UIImage+GoWaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6081D1D66B81D006C5E55 /* UIImage+GoWaterMark.m */; };
 		C4D608231D66B81D006C5E55 /* UIView+GoBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */; };
+		C4D608261D66B9ED006C5E55 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608251D66B9ED006C5E55 /* TableViewController.m */; };
+		C4D6082A1D66BF0D006C5E55 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608291D66BF0D006C5E55 /* UIColor+RandomColor.m */; };
+		C4D6082D1D66D98F006C5E55 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6082C1D66D98F006C5E55 /* UIColor+HexColor.m */; };
+		C4D608341D66DAF2006C5E55 /* NSData+GoEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608331D66DAF2006C5E55 /* NSData+GoEncryption.m */; };
+		C4D608381D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608371D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.m */; };
+		C4D6083B1D66DCCE006C5E55 /* UIView+GoPostionExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6083A1D66DCCE006C5E55 /* UIView+GoPostionExtension.m */; };
+		C4D6083E1D66DECB006C5E55 /* UIView+GoGradientColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D6083D1D66DECB006C5E55 /* UIView+GoGradientColor.m */; };
+		C4D608411D66DEFF006C5E55 /* UIImage+GoAverageColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D608401D66DEFF006C5E55 /* UIImage+GoAverageColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +69,22 @@
 		C4D6081D1D66B81D006C5E55 /* UIImage+GoWaterMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GoWaterMark.m"; sourceTree = "<group>"; };
 		C4D6081F1D66B81D006C5E55 /* UIView+GoBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoBlur.h"; sourceTree = "<group>"; };
 		C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoBlur.m"; sourceTree = "<group>"; };
+		C4D608241D66B9ED006C5E55 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		C4D608251D66B9ED006C5E55 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		C4D608281D66BF0D006C5E55 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
+		C4D608291D66BF0D006C5E55 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		C4D6082B1D66D98F006C5E55 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		C4D6082C1D66D98F006C5E55 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		C4D608321D66DAF2006C5E55 /* NSData+GoEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+GoEncryption.h"; sourceTree = "<group>"; };
+		C4D608331D66DAF2006C5E55 /* NSData+GoEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+GoEncryption.m"; sourceTree = "<group>"; };
+		C4D608361D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GoJSONSerialization.h"; sourceTree = "<group>"; };
+		C4D608371D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+GoJSONSerialization.m"; sourceTree = "<group>"; };
+		C4D608391D66DCCE006C5E55 /* UIView+GoPostionExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoPostionExtension.h"; sourceTree = "<group>"; };
+		C4D6083A1D66DCCE006C5E55 /* UIView+GoPostionExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoPostionExtension.m"; sourceTree = "<group>"; };
+		C4D6083C1D66DECB006C5E55 /* UIView+GoGradientColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GoGradientColor.h"; sourceTree = "<group>"; };
+		C4D6083D1D66DECB006C5E55 /* UIView+GoGradientColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GoGradientColor.m"; sourceTree = "<group>"; };
+		C4D6083F1D66DEFF006C5E55 /* UIImage+GoAverageColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GoAverageColor.h"; sourceTree = "<group>"; };
+		C4D608401D66DEFF006C5E55 /* UIImage+GoAverageColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GoAverageColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +140,8 @@
 				C4D607BC1D66AA76006C5E55 /* AppDelegate.m */,
 				C4D607BE1D66AA76006C5E55 /* ViewController.h */,
 				C4D607BF1D66AA76006C5E55 /* ViewController.m */,
+				C4D608241D66B9ED006C5E55 /* TableViewController.h */,
+				C4D608251D66B9ED006C5E55 /* TableViewController.m */,
 				C4D607C11D66AA76006C5E55 /* Main.storyboard */,
 				C4D607C41D66AA76006C5E55 /* Assets.xcassets */,
 				C4D607C61D66AA76006C5E55 /* LaunchScreen.storyboard */,
@@ -155,6 +181,9 @@
 			isa = PBXGroup;
 			children = (
 				C4D608171D66B81D006C5E55 /* GoKit.h */,
+				C4D608351D66DC03006C5E55 /* NSDictionary */,
+				C4D6082E1D66DAA7006C5E55 /* NSData */,
+				C4D608271D66BEE7006C5E55 /* UIColor */,
 				C4D608181D66B81D006C5E55 /* UIButton */,
 				C4D6081B1D66B81D006C5E55 /* UIImage */,
 				C4D6081E1D66B81D006C5E55 /* UIView */,
@@ -177,6 +206,8 @@
 			children = (
 				C4D6081C1D66B81D006C5E55 /* UIImage+GoWaterMark.h */,
 				C4D6081D1D66B81D006C5E55 /* UIImage+GoWaterMark.m */,
+				C4D6083F1D66DEFF006C5E55 /* UIImage+GoAverageColor.h */,
+				C4D608401D66DEFF006C5E55 /* UIImage+GoAverageColor.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -186,8 +217,41 @@
 			children = (
 				C4D6081F1D66B81D006C5E55 /* UIView+GoBlur.h */,
 				C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */,
+				C4D608391D66DCCE006C5E55 /* UIView+GoPostionExtension.h */,
+				C4D6083A1D66DCCE006C5E55 /* UIView+GoPostionExtension.m */,
+				C4D6083C1D66DECB006C5E55 /* UIView+GoGradientColor.h */,
+				C4D6083D1D66DECB006C5E55 /* UIView+GoGradientColor.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		C4D608271D66BEE7006C5E55 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				C4D608281D66BF0D006C5E55 /* UIColor+RandomColor.h */,
+				C4D608291D66BF0D006C5E55 /* UIColor+RandomColor.m */,
+				C4D6082B1D66D98F006C5E55 /* UIColor+HexColor.h */,
+				C4D6082C1D66D98F006C5E55 /* UIColor+HexColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		C4D6082E1D66DAA7006C5E55 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				C4D608321D66DAF2006C5E55 /* NSData+GoEncryption.h */,
+				C4D608331D66DAF2006C5E55 /* NSData+GoEncryption.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		C4D608351D66DC03006C5E55 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C4D608361D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.h */,
+				C4D608371D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.m */,
+			);
+			path = NSDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,12 +384,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D6082A1D66BF0D006C5E55 /* UIColor+RandomColor.m in Sources */,
 				C4D607C01D66AA76006C5E55 /* ViewController.m in Sources */,
 				C4D607BD1D66AA76006C5E55 /* AppDelegate.m in Sources */,
 				C4D607BA1D66AA76006C5E55 /* main.m in Sources */,
 				C4D608211D66B81D006C5E55 /* UIButton+GoBlock.m in Sources */,
+				C4D6083B1D66DCCE006C5E55 /* UIView+GoPostionExtension.m in Sources */,
+				C4D6082D1D66D98F006C5E55 /* UIColor+HexColor.m in Sources */,
 				C4D608221D66B81D006C5E55 /* UIImage+GoWaterMark.m in Sources */,
+				C4D6083E1D66DECB006C5E55 /* UIView+GoGradientColor.m in Sources */,
+				C4D608381D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.m in Sources */,
+				C4D608261D66B9ED006C5E55 /* TableViewController.m in Sources */,
+				C4D608411D66DEFF006C5E55 /* UIImage+GoAverageColor.m in Sources */,
 				C4D608231D66B81D006C5E55 /* UIView+GoBlur.m in Sources */,
+				C4D608341D66DAF2006C5E55 /* NSData+GoEncryption.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

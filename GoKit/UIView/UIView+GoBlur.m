@@ -9,18 +9,18 @@
 
 #import "UIView+GoBlur.h"
 
-#define leeiOS(x)                                                              \
+#define go_iOS(x)                                                              \
   ([[[UIDevice currentDevice] systemVersion] floatValue] >= x ? YES : NO)
 
 @implementation UIView (GoBlur)
 
-- (UIView *)addBlurWithEffectWithStyle:(UIBlurEffectStyle)style {
-  return [self addBlurWithEffectWithStyle:style frame:self.frame];
+- (UIView *)go_addBlurWithEffectWithStyle:(UIBlurEffectStyle)style {
+  return [self go_addBlurWithEffectWithStyle:style frame:self.frame];
 }
 
-- (UIView *)addBlurWithEffectWithStyle:(UIBlurEffectStyle)style
-                                 frame:(CGRect)frame {
-  if (leeiOS(8)) {
+- (UIView *)go_addBlurWithEffectWithStyle:(UIBlurEffectStyle)style
+                                    frame:(CGRect)frame {
+  if (go_iOS(8)) {
 
     UIVisualEffectView *view = [self effectviewWithframe:frame];
 

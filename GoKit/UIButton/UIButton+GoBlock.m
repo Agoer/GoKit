@@ -13,7 +13,7 @@
 @implementation UIButton (GoBlock)
 
 #pragma mark - Public
-- (void)addAction:(ButtonBlock)block
+- (void)go_AddAction:(ButtonBlock)block
   forControlEvent:(UIControlEvents)controlEvent {
   if (controlEvent <= 1 << 8) {
     NSMutableArray *keyArray = [self actionsArrayForControlEvent:controlEvent];
@@ -23,7 +23,7 @@
   }
 }
 
-- (void)removeAllActionForControlEvent:(UIControlEvents)controlEvent {
+- (void)go_RemoveAllActionForControlEvent:(UIControlEvents)controlEvent {
   NSMutableArray *keyArray = [self actionsArrayForControlEvent:controlEvent];
   [keyArray removeAllObjects];
 }

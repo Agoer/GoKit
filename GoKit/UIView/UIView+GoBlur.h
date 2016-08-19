@@ -11,9 +11,9 @@
 @interface UIView (GoBlur)
 
 
-- (UIView *)addBlurWithEffectWithStyle:(UIBlurEffectStyle)style;
+- (UIView *)go_addBlurWithEffectWithStyle:(UIBlurEffectStyle)style;
 
-- (UIView *)addBlurWithEffectWithStyle:(UIBlurEffectStyle)style frame:(CGRect)frame;
+- (UIView *)go_addBlurWithEffectWithStyle:(UIBlurEffectStyle)style frame:(CGRect)frame;
 
 
 @end

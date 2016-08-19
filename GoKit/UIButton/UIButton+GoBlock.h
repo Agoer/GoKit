@@ -12,11 +12,11 @@ typedef void (^ButtonBlock)(UIButton *btn);
 
 @interface UIButton (GoBlock)
 
-- (void)addAction:(ButtonBlock)block
+- (void)go_AddAction:(ButtonBlock)block
   forControlEvent:(UIControlEvents)controlEvent;
 
 /* does not support remove one specific block*/
 
-- (void)removeAllActionForControlEvent:(UIControlEvents)controlEvent;
+- (void)go_RemoveAllActionForControlEvent:(UIControlEvents)controlEvent;
 
 @end
