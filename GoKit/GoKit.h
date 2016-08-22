@@ -10,9 +10,15 @@
 #ifndef GoKit_h
 #define GoKit_h
 
+#import "NSArray+GoEmptyJudge.h"
+#import "NSData+GoEncryption.h"
+#import "NSDictionary+GoJSONSerialization.h"
 #import "UIButton+GoBlock.h"
+#import "UIColor+HexColor.h"
 #import "UIColor+RandomColor.h"
 #import "UIImage+GoWaterMark.h"
 #import "UIView+GoBlur.h"
+#import "UIView+GoGradientColor.h"
+#import "UIView+GoPostionExtension.h"
 
 #endif /* GoKit_h */
