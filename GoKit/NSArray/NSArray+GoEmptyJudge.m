@@ -18,11 +18,4 @@
   return NO;
 }
 
-- (BOOL)isEmpty {
-  if ([self isKindOfClass:[NSArray class]] && self.count) {
-    return YES;
-  }
-  return NO;
-}
-
 @end

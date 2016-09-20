@@ -12,6 +12,5 @@
 @interface NSArray (GoEmptyJudge)
 
 - (BOOL)isNotEmpty;
-- (BOOL)isEmpty;
 
 @end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C46449751D9146EE00D42E7A /* UIView+CellIndetifier.m in Sources */ = {isa = PBXBuildFile; fileRef = C46449741D9146EE00D42E7A /* UIView+CellIndetifier.m */; };
 		C474A08C1D6A9E30007AAF37 /* NSArray+GoEmptyJudge.m in Sources */ = {isa = PBXBuildFile; fileRef = C474A08B1D6A9E30007AAF37 /* NSArray+GoEmptyJudge.m */; };
 		C4D607BA1D66AA76006C5E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D607B91D66AA76006C5E55 /* main.m */; };
 		C4D607BD1D66AA76006C5E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D607BC1D66AA76006C5E55 /* AppDelegate.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C46449731D9146EE00D42E7A /* UIView+CellIndetifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CellIndetifier.h"; sourceTree = "<group>"; };
+		C46449741D9146EE00D42E7A /* UIView+CellIndetifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CellIndetifier.m"; sourceTree = "<group>"; };
 		C474A08A1D6A9E30007AAF37 /* NSArray+GoEmptyJudge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+GoEmptyJudge.h"; sourceTree = "<group>"; };
 		C474A08B1D6A9E30007AAF37 /* NSArray+GoEmptyJudge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+GoEmptyJudge.m"; sourceTree = "<group>"; };
 		C4D607B51D66AA76006C5E55 /* GoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +231,8 @@
 		C4D6081E1D66B81D006C5E55 /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				C46449731D9146EE00D42E7A /* UIView+CellIndetifier.h */,
+				C46449741D9146EE00D42E7A /* UIView+CellIndetifier.m */,
 				C4D6081F1D66B81D006C5E55 /* UIView+GoBlur.h */,
 				C4D608201D66B81D006C5E55 /* UIView+GoBlur.m */,
 				C4D608391D66DCCE006C5E55 /* UIView+GoPostionExtension.h */,
@@ -406,6 +411,7 @@
 				C4D6083B1D66DCCE006C5E55 /* UIView+GoPostionExtension.m in Sources */,
 				C4D6082D1D66D98F006C5E55 /* UIColor+HexColor.m in Sources */,
 				C4D608221D66B81D006C5E55 /* UIImage+GoWaterMark.m in Sources */,
+				C46449751D9146EE00D42E7A /* UIView+CellIndetifier.m in Sources */,
 				C4D6083E1D66DECB006C5E55 /* UIView+GoGradientColor.m in Sources */,
 				C4D608381D66DC1E006C5E55 /* NSDictionary+GoJSONSerialization.m in Sources */,
 				C4D608261D66B9ED006C5E55 /* TableViewController.m in Sources */,

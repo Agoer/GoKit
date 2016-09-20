@@ -20,5 +20,6 @@
 #import "UIView+GoBlur.h"
 #import "UIView+GoGradientColor.h"
 #import "UIView+GoPostionExtension.h"
+#import "UIView+CellIndetifier.h"
 
 #endif /* GoKit_h */
